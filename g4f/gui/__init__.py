@@ -6,7 +6,7 @@ try:
 except ImportError:
     raise MissingRequirementsError('Install "flask" package for the gui')
 
-def run_gui(host: str = '0.0.0.0', port: int = 8080, debug: bool = False) -> None:
+def run_gui(host: str = '0.0.0.0', port: int = 8181, debug: bool = False) -> None:
     config = {
         'host' : host,
         'port' : port,

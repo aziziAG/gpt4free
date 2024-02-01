@@ -84,9 +84,9 @@ As per the survey, here is a list of improvements to come
 
 ```sh
 docker pull hlohaus789/g4f
-docker run -p 8080:8080 -p 1337:1337 -p 7900:7900 --shm-size="2g" hlohaus789/g4f:latest
+docker run -p 8181:8181 -p 1337:1337 -p 7900:7900 --shm-size="2g" hlohaus789/g4f:latest
 ```
-3. Open the included client on: [http://localhost:8080/chat/](http://localhost:8080/chat/)
+3. Open the included client on: [http://localhost:8181/chat/](http://localhost:8181/chat/)
 or set the api base in your client to: [http://localhost:1337/v1](http://localhost:1337/v1)
 4. (Optional) If you need to log in to a provider, you can view the desktop from the container here: http://localhost:7900/?autoconnect=1&resize=scale&password=secret.
 
